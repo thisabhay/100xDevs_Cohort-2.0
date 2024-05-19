@@ -1,0 +1,98 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", serif;
+    font-size: 16px;
+    line-height: 1.7;
+    font-weight: 400;
+    
+    color: #434343;
+}
+
+header {
+    box-shadow: 2px 1px 2px #eee;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    align-items: center;
+    padding: 20px 0;
+}
+
+nav img {
+    width: 130px;
+    height: auto;
+}
+
+nav .container {
+    display: flex;
+}
+
+.item {
+    padding: 0 20px;
+    color: #666;
+    transition: color 0.3s ease;
+}
+
+.item:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+section {
+    padding: 0 20px 120px 20px;
+}
+
+.landing {
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #424242;
+    text-align: center;
+}
+
+.landing img {
+    margin: 0 0 60px;
+    max-height: 45vh;
+    max-width: 100%;
+    height: auto;
+}
+
+.landing h1 {
+    color: #424242;
+    font-size: 2.5em;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.landing p {
+    font-size: 1.2em;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+.landing button {
+    display: inline-block;
+    padding: 10px 30px;
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 500;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: #3873D1;
+    border-radius: 3px;
+    border: 1px solid #bbb;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-sizing: border-box;
+}
+
+.landing button:hover {
+    background-color: black;
+}
